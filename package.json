@@ -1,0 +1,22 @@
+{
+  "name": "sample1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^2.10.2",
+    "mobx": "^3.1.10",
+    "mobx-react": "^4.1.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-inline-block": "^2.1.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

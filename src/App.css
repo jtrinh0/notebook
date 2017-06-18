@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #F8ECC1;
+  height: 100px;
+  padding: 20px;
+  color: #5C5C5C;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/*@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
+
+.ant-tooltip-content .ant-tooltip-inner {
+  font-size: 15px;
+  max-width: none;
+}
+
+.login {
+  position: absolute;
+  font-family: Arial, sans-serif;
+  color: #F4F4F4;
+  font-size: 18px;
+  text-align: right;
+  right: 50px;
+  line-height: 100px;
+}
+
+.login:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 34px;
+  background: #F8ECC1;
+  height: 2px;
+  content: "";
+  transition: .5s all;
+  opacity: 0;
+  transform:scale(0);
+}
+
+.login:hover:before {
+  opacity: 1;
+  transform:scale(1);
+  background: white;
+}
+
+a {
+  color: #3572BD;
+}
+
+a:hover {
+  color: #B93C65;
+}
+
+.ant-btn {
+  color: #3572BD;
+  border-color: #3572BD;
+}
+
+.ant-btn:hover, .ant-btn:focus {
+  color: #B93C65;
+  border-color: #B93C65;
+}
