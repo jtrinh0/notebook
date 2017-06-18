@@ -3,11 +3,9 @@ import ReactDOM from 'react-dom'
 import { observable } from 'mobx'
 import { observer } from 'mobx-react'
 import { Heart, HeartFill, Bookmark, BookmarkFill } from './Heart'
-
 var originalNumber = 0
 const state = observable({counter: originalNumber, icon: "bookmark-o"})
 const incrementCounter = () => state.counter = state.counter + 1
-// , color: "#3572BD"
 
 const changeIcon = () => {
     const newIcon = state.icon == "bookmark-o" ? "bookmark" : "bookmark-o"
